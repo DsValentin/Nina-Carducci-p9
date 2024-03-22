@@ -248,15 +248,7 @@ input[type="submit"] {
 }
 
 footer {
-  background-color: #1c6474;
-  padding-block: 2em;
-  color: white;
-  text-align: center;
-  p {
-    a {
-      color: white;
-    }
-  }
+  padding-block: auto;
 }
 
 @media all and (max-width: 1180px) {
