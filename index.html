@@ -1,77 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Définition des métadonnées -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Nina Carducci" />
-    <meta name="copyright" content="© Nina Carducci" />
+    <title>Nina Carducci Portfolio</title>
+
+    <!-- Liens vers les feuilles de style -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
     <meta
       name="description"
-      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+      content="Site web de Nina Carducci, photographe passionnée, qui aime capturer des moments uniques"
     />
 
-    <!-- Meta donnés pour le référencement facebook -->
-    <meta
-      property="og:title"
-      content="Nina Carducci - Photographe - Bordeaux"
-    />
+    <meta property="og:title" content="Nina Carducci Photographie" />
     <meta
       property="og:description"
-      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
-    />
-    <meta
-      property="og:image"
-      content="https://kyra110.github.io/Nina-P9/assets/images/nina.webp"
-    />
-    <!-- URL de votre image -->
-    <meta property="og:url" content="https://kyra110.github.io/Nina-P9/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="fr_FR" />
-    <!-- Meta donnés pour le référencement Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
       content="Nina Carducci - Photographe - Bordeaux"
     />
+    <meta property="og:image" content="./assets/images/nina-1.webp" />
     <meta
-      name="twitter:description"
-      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+      property="og:url"
+      content="https://dsvalentin.github.io/Nina-Carducci-p9/"
     />
-    <meta
-      name="twitter:image"
-      content="https://kyra110.github.io/Nina-P9/assets/images/nina.webp"
-    />
-    <!-- URL de votre image -->
-
-    <title>Nina Carducci - Photographe</title>
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <meta property="og:type" content="website" />
+    <!-- Liens vers les polices Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,300;0,800;1,300&display=swap"
-      rel="stylesheet" defer
-    /> -->
-    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Chargement des scripts -->
+    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "ProfessionalService",
+        "@type": "PhotographieStudio",
         "name": "Nina Carducci",
-        "image": "./assets/images/nina.webp",
-        "url": "https://ninacarducci.github.io/",
-        "priceRange": "50€ - 400€",
+        "image": "./assets/images/nina-1.webp",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "68 avenue Alsace-Lorraine",
           "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
           "postalCode": "33200",
-          "addressCountry": "FR"
+          "addressCountry": "France"
         },
-        "telephone": "+33556677889",
+        "telephone": "05 56 67 78 89",
+        "url": "https://ninacarducci.github.io/",
+
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -85,8 +73,7 @@
             "opens": "10:00",
             "closes": "19:00"
           }
-        ],
-        "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
+        ]
       }
     </script>
   </head>
@@ -418,4 +405,5 @@
     </footer>
   </body>
 </html>
+
 
