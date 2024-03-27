@@ -1,30 +1,31 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Définition des métadonnées -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nina Carducci Portfolio</title>
+
+    <!-- Liens vers les feuilles de style -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <meta name="author" content="Nina Carducci" />
     <meta name="copyright" content="© Nina Carducci" />
     <meta
       name="description"
-      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+      content="Site web de Nina Carducci, photographe passionnée, qui aime capturer des moments uniques"
     />
 
-    <!-- Meta donnés pour le référencement facebook -->
+    <meta property="og:title" content="Nina Carducci Photographie" />
     <meta
-      property="og:title"
+      property="og:description"
       content="Nina Carducci - Photographe - Bordeaux"
     />
     <meta
-      property="og:description"
-      content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+      property="og:image"
+      content="https://dsvalentin.github.io/Nina-Carducci-p9/assets/images/nina.webp"
     />
     <meta
-      property="og:image"
-        content="https://dsvalentin.github.io/Nina-Carducci-p9/assets/images/nina.webp"
-    />
-    <!-- URL de votre image -->
-  <meta
       property="og:url"
       content="https://dsvalentin.github.io/Nina-Carducci-p9/"
     />
@@ -42,24 +43,30 @@
     />
     <meta
       name="twitter:image"
-   https:/dsvalentin.github.io/Nina-Carducci-p9/assets/images/nina.webp"
+      content="https://dsvalentin.github.io/Nina-Carducci-p9/assets/images/nina.webp"
     />
     <!-- URL de votre image -->
 
-    <title>Nina Carducci - Photographe</title>
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" defer />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,300;0,800;1,300&display=swap"
-      rel="stylesheet" defer
-    /> -->
-    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Chargement des scripts -->
+    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "ProfessionalService",
+        "@type": "PhotographieStudio",
         "name": "Nina Carducci",
         "image": "./assets/images/nina.webp",
         "url": "https://ninacarducci.github.io/",
@@ -69,9 +76,10 @@
           "streetAddress": "68 avenue Alsace-Lorraine",
           "addressLocality": "Bordeaux",
           "postalCode": "33200",
-          "addressCountry": "FR"
+          "addressCountry": "France"
         },
-        "telephone": "+33556677889",
+        "telephone": "05 56 67 78 89",
+
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -419,3 +427,4 @@
     </footer>
   </body>
 </html>
+
